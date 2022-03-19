@@ -1,0 +1,2323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cokteli</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+   <main>
+
+    <div class="shapecss supreme-container">
+      <header class="navbar fixed-top bg-light">
+        <h3 class="logo">MY COCKTAIL</h3>
+        <div>
+          <ul class="nava">
+            <li><a class="text-decoration-none" href="#home">Home</a></li>
+            <li><a href="#nc">Nos cocktails</a></li>
+            <li><a href="#cu">contact us</a></li>
+            <li><a href="#hp"> help</a></li>
+          </ul>
+        </div>
+      </header>
+      <section class="rowa" id="home">
+        <div>
+          <img
+            src="jsa.png"
+            style="
+              filter: drop-shadow(5px 5px 5px #0a0a0a8a);
+              margin-left: 50px;
+              margin-bottom: 30px;
+            "
+            alt="Image cocktail"
+            width=""
+          />
+        </div>
+        <div>
+          <h1
+            class="intro"
+            style="
+              font-size: 50px;
+              font-weight: 300;
+              margin-bottom: 10px;
+              margin-left: 20px;
+            "
+          >
+            Cocktails are <b class="gd">good</b> for
+            <b class="good">health</b>
+          </h1>
+          <p
+            class="intro"
+            style="
+              font-size: 15px;
+              width: 80%;
+              color: rgb(240, 236, 236);
+              line-height: 25px;
+              margin-left: 20px;
+            "
+          >
+            Frech cocktail can do mush more than juste provide temporary
+            sustenance on the go.Freshly squeezed fruits especially are not only
+            delicious,but are also easy to digest and ideal for the modern
+            eat-on-the-go lifestyle.
+          </p>
+        </div>
+      </section>
+
+      <div style="height: 430px " class="pt-4" id="nc">
+        <div class="container mt-5">
+          <div class="row" style="flex-wrap: nowrap;">
+            <div class="col-md-3">
+              <div class="card">
+                <div class="image-container">
+                  <div class="first">
+                    <div
+                      class="d-none justify-content-between align-items-center"
+                    >
+                      <span class="discount">-25%</span>
+                      <span class="wishlist"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                    </div>
+                  </div>
+                  <img
+                    src="https://assets.afcdn.com/recipe/20180705/80348_w1024h768c1cx1491cy2383.jpg"
+                    class="img-fluid rounded thumbnail-image"
+                  />
+                </div>
+                <div class="product-detail-container p-2">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <h5 class="dress-name">Punch exotique</h5>
+                    <div class="d-flex flex-column mb-2">
+                      <span class="new-price"></span>
+                      <small class="old-price text-right"></small>
+                    </div>
+                  </div>
+                  <div
+                    class="d-none justify-content-between align-items-center pt-1"
+                  >
+                    <div class="color-select d-flex">
+                      <input type="button" name="grey" class="btn creme" />
+                      <input type="button" name="red" class="btn red ml-2" />
+                      <input type="button" name="blue" class="btn blue ml-2" />
+                    </div>
+                    <div class="d-flex">
+                      <span class="item-size mr-2 btn" type="button">S</span>
+                      <span class="item-size mr-2 btn" type="button">M</span>
+                      <span class="item-size btn" type="button">L</span>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center pt-1"
+                  >
+                    <div>
+                      <i class="fa fa-star-o rating-star"></i>
+                      <span class="rating-number">4.8</span>
+                    </div>
+                    <span class="buy" onclick="showit()">Show recipe</span>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-3">
+                <div class="card voutchers">
+                  <div class="voutcher-divider">
+                    <div class="voutcher-left text-center">
+                      <span class="voutcher-name">PUNCH</span>
+                      <h5 class="voutcher-code">Cocktail Apéritif</h5>
+                    </div>
+                    <div class="voutcher-right text-center border-left">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="mt-3 bi bi-heart"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <div class="image-container">
+                  <div class="first">
+                    <div
+                      class="d-none justify-content-between align-items-center"
+                    >
+                      <span class="discount">-25%</span>
+                      <span class="wishlist"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                    </div>
+                  </div>
+                  <img
+                    src="https://assets.afcdn.com/recipe/20180705/80255_w350h250c1cx2774cy1849.jpg"
+                    class="img-fluid rounded thumbnail-image"
+                  />
+                </div>
+                <div class="product-detail-container p-2">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <h5 class="dress-name">Mojito</h5>
+                    <div class="d-flex flex-column mb-2">
+                      <span class="new-price"></span>
+                      <small class="old-price text-right"></small>
+                    </div>
+                  </div>
+                  <div
+                    class="d-none justify-content-between align-items-center pt-1"
+                  >
+                    <div class="color-select d-flex">
+                      <input type="button" name="grey" class="btn creme" />
+                      <input type="button" name="red" class="btn red ml-2" />
+                      <input type="button" name="blue" class="btn blue ml-2" />
+                    </div>
+                    <div class="d-flex">
+                      <span class="item-size mr-2 btn" type="button">S</span>
+                      <span class="item-size mr-2 btn" type="button">M</span>
+                      <span class="item-size btn" type="button">L</span>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center pt-1"
+                  >
+                    <div>
+                      <i class="fa fa-star-o rating-star"></i>
+                      <span class="rating-number">4.8</span>
+                    </div>
+                    <span class="buy"onclick="showit(1)">Show recipe</span>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-3">
+                <div class="card voutchers">
+                  <div class="voutcher-divider">
+                    <div class="voutcher-left text-center">
+                      <span class="voutcher-name">Mojito</span>
+                      <h5 class="voutcher-code">Cocktail Apéritif</h5>
+                    </div>
+                    <div class="voutcher-right text-center border-left">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="mt-3 bi bi-heart"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <div class="image-container">
+                  <div class="first">
+                    <div
+                      class="d-none justify-content-between align-items-center"
+                    >
+                      <span class="discount">-25%</span>
+                      <span class="wishlist"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                    </div>
+                  </div>
+                  <img
+                    src="https://assets.afcdn.com/recipe/20180705/80256_w350h250c1cx1665cy1865.jpg"
+                    class="img-fluid rounded thumbnail-image"
+                  />
+                </div>
+                <div class="product-detail-container p-2">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <h5 class="dress-name">Aperol Spritz</h5>
+                    <div class="d-flex flex-column mb-2">
+                      <span class="new-price"></span>
+                      <small class="old-price text-right"></small>
+                    </div>
+                  </div>
+                  <div
+                    class="d-none justify-content-between align-items-center pt-1"
+                  >
+                    <div class="color-select d-flex">
+                      <input type="button" name="grey" class="btn creme" />
+                      <input type="button" name="red" class="btn red ml-2" />
+                      <input type="button" name="blue" class="btn blue ml-2" />
+                    </div>
+                    <div class="d-flex">
+                      <span class="item-size mr-2 btn" type="button">S</span>
+                      <span class="item-size mr-2 btn" type="button">M</span>
+                      <span class="item-size btn" type="button">L</span>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center pt-1"
+                  >
+                    <div>
+                      <i class="fa fa-star-o rating-star"></i>
+                      <span class="rating-number">4.8</span>
+                    </div>
+                    <span class="buy"onclick="showit(2)">Show recipe</span>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-3">
+                <div class="card voutchers">
+                  <div class="voutcher-divider">
+                    <div class="voutcher-left text-center">
+                      <span class="voutcher-name">Spritz</span>
+                      <h5 class="voutcher-code">Cocktail Apéritif</h5>
+                    </div>
+                    <div class="voutcher-right text-center border-left">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="mt-3 bi bi-heart"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <div class="image-container">
+                  <div class="first">
+                    <div
+                      class="d-none justify-content-between align-items-center"
+                    >
+                      <span class="discount">-25%</span>
+                      <span class="wishlist"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                    </div>
+                  </div>
+                  <img
+                    src="https://assets.afcdn.com/recipe/20180705/80258_w350h250c1cx974cy1535.jpg"
+                    class="img-fluid rounded thumbnail-image"
+                  />
+                </div>
+                <div class="product-detail-container p-2">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <h5 class="dress-name">Piña Colada</h5>
+                    <div class="d-flex flex-column mb-2">
+                      <span class="new-price"></span>
+                      <small class="old-price text-right"></small>
+                    </div>
+                  </div>
+                  <div
+                    class="d-none justify-content-between align-items-center pt-1"
+                  >
+                    <div class="color-select d-flex">
+                      <input type="button" name="grey" class="btn creme" />
+                      <input type="button" name="red" class="btn red ml-2" />
+                      <input type="button" name="blue" class="btn blue ml-2" />
+                    </div>
+                    <div class="d-flex">
+                      <span class="item-size mr-2 btn" type="button">S</span>
+                      <span class="item-size mr-2 btn" type="button">M</span>
+                      <span class="item-size btn" type="button">L</span>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center pt-1"
+                  >
+                    <div>
+                      <i class="fa fa-star-o rating-star"></i>
+                      <span class="rating-number">4.8</span>
+                    </div>
+                    <span class="buy"onclick="showit(3)">Show recipe</span>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-3">
+                <div class="card voutchers">
+                  <div class="voutcher-divider">
+                    <div class="voutcher-left text-center">
+                      <span class="voutcher-name">Piña Colada</span>
+                      <h5 class="voutcher-code">Cocktail Apéritif</h5>
+                    </div>
+                    <div class="voutcher-right text-center border-left">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="mt-3 bi bi-heart"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4" style="flex-wrap: nowrap;">
+            <div class="col-md-3">
+              <div class="card">
+                <div class="image-container">
+                  <div class="first">
+                    <div
+                      class="d-none justify-content-between align-items-center"
+                    >
+                      <span class="discount">-25%</span>
+                      <span class="wishlist"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                    </div>
+                  </div>
+                  <img
+                    src="https://assets.afcdn.com/recipe/20180705/80348_w1024h768c1cx1491cy2383.jpg"
+                    class="img-fluid rounded thumbnail-image"
+                  />
+                </div>
+                <div class="product-detail-container p-2">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <h5 class="dress-name">Punch exotique</h5>
+                    <div class="d-flex flex-column mb-2">
+                      <span class="new-price"></span>
+                      <small class="old-price text-right"></small>
+                    </div>
+                  </div>
+                  <div
+                    class="d-none justify-content-between align-items-center pt-1"
+                  >
+                    <div class="color-select d-flex">
+                      <input type="button" name="grey" class="btn creme" />
+                      <input type="button" name="red" class="btn red ml-2" />
+                      <input type="button" name="blue" class="btn blue ml-2" />
+                    </div>
+                    <div class="d-flex">
+                      <span class="item-size mr-2 btn" type="button">S</span>
+                      <span class="item-size mr-2 btn" type="button">M</span>
+                      <span class="item-size btn" type="button">L</span>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center pt-1"
+                  >
+                    <div>
+                      <i class="fa fa-star-o rating-star"></i>
+                      <span class="rating-number">4.8</span>
+                    </div>
+                    <span class="buy">Show recipe</span>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-3">
+                <div class="card voutchers">
+                  <div class="voutcher-divider">
+                    <div class="voutcher-left text-center">
+                      <span class="voutcher-name">PUNCH</span>
+                      <h5 class="voutcher-code">Cocktail Apéritif</h5>
+                    </div>
+                    <div class="voutcher-right text-center border-left">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="mt-3 bi bi-heart"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <div class="image-container">
+                  <div class="first">
+                    <div
+                      class="d-none justify-content-between align-items-center"
+                    >
+                      <span class="discount">-25%</span>
+                      <span class="wishlist"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                    </div>
+                  </div>
+                  <img
+                    src="https://assets.afcdn.com/recipe/20180705/80255_w350h250c1cx2774cy1849.jpg"
+                    class="img-fluid rounded thumbnail-image"
+                  />
+                </div>
+                <div class="product-detail-container p-2">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <h5 class="dress-name">Mojito</h5>
+                    <div class="d-flex flex-column mb-2">
+                      <span class="new-price"></span>
+                      <small class="old-price text-right"></small>
+                    </div>
+                  </div>
+                  <div
+                    class="d-none justify-content-between align-items-center pt-1"
+                  >
+                    <div class="color-select d-flex">
+                      <input type="button" name="grey" class="btn creme" />
+                      <input type="button" name="red" class="btn red ml-2" />
+                      <input type="button" name="blue" class="btn blue ml-2" />
+                    </div>
+                    <div class="d-flex">
+                      <span class="item-size mr-2 btn" type="button">S</span>
+                      <span class="item-size mr-2 btn" type="button">M</span>
+                      <span class="item-size btn" type="button">L</span>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center pt-1"
+                  >
+                    <div>
+                      <i class="fa fa-star-o rating-star"></i>
+                      <span class="rating-number">4.8</span>
+                    </div>
+                    <span class="buy">Show recipe</span>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-3">
+                <div class="card voutchers">
+                  <div class="voutcher-divider">
+                    <div class="voutcher-left text-center">
+                      <span class="voutcher-name">Mojito</span>
+                      <h5 class="voutcher-code">Cocktail Apéritif</h5>
+                    </div>
+                    <div class="voutcher-right text-center border-left">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="mt-3 bi bi-heart"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <div class="image-container">
+                  <div class="first">
+                    <div
+                      class="d-none justify-content-between align-items-center"
+                    >
+                      <span class="discount">-25%</span>
+                      <span class="wishlist"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                    </div>
+                  </div>
+                  <img
+                    src="https://assets.afcdn.com/recipe/20180705/80256_w350h250c1cx1665cy1865.jpg"
+                    class="img-fluid rounded thumbnail-image"
+                  />
+                </div>
+                <div class="product-detail-container p-2">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <h5 class="dress-name">Aperol Spritz</h5>
+                    <div class="d-flex flex-column mb-2">
+                      <span class="new-price"></span>
+                      <small class="old-price text-right"></small>
+                    </div>
+                  </div>
+                  <div
+                    class="d-none justify-content-between align-items-center pt-1"
+                  >
+                    <div class="color-select d-flex">
+                      <input type="button" name="grey" class="btn creme" />
+                      <input type="button" name="red" class="btn red ml-2" />
+                      <input type="button" name="blue" class="btn blue ml-2" />
+                    </div>
+                    <div class="d-flex">
+                      <span class="item-size mr-2 btn" type="button">S</span>
+                      <span class="item-size mr-2 btn" type="button">M</span>
+                      <span class="item-size btn" type="button">L</span>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center pt-1"
+                  >
+                    <div>
+                      <i class="fa fa-star-o rating-star"></i>
+                      <span class="rating-number">4.8</span>
+                    </div>
+                    <span class="buy">Show recipe</span>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-3">
+                <div class="card voutchers">
+                  <div class="voutcher-divider">
+                    <div class="voutcher-left text-center">
+                      <span class="voutcher-name">Spritz</span>
+                      <h5 class="voutcher-code">Cocktail Apéritif</h5>
+                    </div>
+                    <div class="voutcher-right text-center border-left">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="mt-3 bi bi-heart"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <div class="image-container">
+                  <div class="first">
+                    <div
+                      class="d-none justify-content-between align-items-center"
+                    >
+                      <span class="discount">-25%</span>
+                      <span class="wishlist"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                    </div>
+                  </div>
+                  <img
+                    src="https://assets.afcdn.com/recipe/20180705/80258_w350h250c1cx974cy1535.jpg"
+                    class="img-fluid rounded thumbnail-image"
+                  />
+                </div>
+                <div class="product-detail-container p-2">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <h5 class="dress-name">Piña Colada</h5>
+                    <div class="d-flex flex-column mb-2">
+                      <span class="new-price"></span>
+                      <small class="old-price text-right"></small>
+                    </div>
+                  </div>
+                  <div
+                    class="d-none justify-content-between align-items-center pt-1"
+                  >
+                    <div class="color-select d-flex">
+                      <input type="button" name="grey" class="btn creme" />
+                      <input type="button" name="red" class="btn red ml-2" />
+                      <input type="button" name="blue" class="btn blue ml-2" />
+                    </div>
+                    <div class="d-flex">
+                      <span class="item-size mr-2 btn" type="button">S</span>
+                      <span class="item-size mr-2 btn" type="button">M</span>
+                      <span class="item-size btn" type="button">L</span>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center pt-1"
+                  >
+                    <div>
+                      <i class="fa fa-star-o rating-star"></i>
+                      <span class="rating-number">4.8</span>
+                    </div>
+                    <span class="buy">Show recipe</span>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-3">
+                <div class="card voutchers">
+                  <div class="voutcher-divider">
+                    <div class="voutcher-left text-center">
+                      <span class="voutcher-name">Piña Colada</span>
+                      <h5 class="voutcher-code">Cocktail Apéritif</h5>
+                    </div>
+                    <div class="voutcher-right text-center border-left">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="mt-3 bi bi-heart"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4" style="flex-wrap: nowrap;">
+            <div class="col-md-3">
+              <div class="card">
+                <div class="image-container">
+                  <div class="first">
+                    <div
+                      class="d-none justify-content-between align-items-center"
+                    >
+                      <span class="discount">-25%</span>
+                      <span class="wishlist"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                    </div>
+                  </div>
+                  <img
+                    src="https://assets.afcdn.com/recipe/20180705/80348_w1024h768c1cx1491cy2383.jpg"
+                    class="img-fluid rounded thumbnail-image"
+                  />
+                </div>
+                <div class="product-detail-container p-2">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <h5 class="dress-name">Punch exotique</h5>
+                    <div class="d-flex flex-column mb-2">
+                      <span class="new-price"></span>
+                      <small class="old-price text-right"></small>
+                    </div>
+                  </div>
+                  <div
+                    class="d-none justify-content-between align-items-center pt-1"
+                  >
+                    <div class="color-select d-flex">
+                      <input type="button" name="grey" class="btn creme" />
+                      <input type="button" name="red" class="btn red ml-2" />
+                      <input type="button" name="blue" class="btn blue ml-2" />
+                    </div>
+                    <div class="d-flex">
+                      <span class="item-size mr-2 btn" type="button">S</span>
+                      <span class="item-size mr-2 btn" type="button">M</span>
+                      <span class="item-size btn" type="button">L</span>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center pt-1"
+                  >
+                    <div>
+                      <i class="fa fa-star-o rating-star"></i>
+                      <span class="rating-number">4.8</span>
+                    </div>
+                    <span class="buy">Show recipe</span>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-3">
+                <div class="card voutchers">
+                  <div class="voutcher-divider">
+                    <div class="voutcher-left text-center">
+                      <span class="voutcher-name">PUNCH</span>
+                      <h5 class="voutcher-code">Cocktail Apéritif</h5>
+                    </div>
+                    <div class="voutcher-right text-center border-left">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="mt-3 bi bi-heart"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <div class="image-container">
+                  <div class="first">
+                    <div
+                      class="d-none justify-content-between align-items-center"
+                    >
+                      <span class="discount">-25%</span>
+                      <span class="wishlist"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                    </div>
+                  </div>
+                  <img
+                    src="https://assets.afcdn.com/recipe/20180705/80255_w350h250c1cx2774cy1849.jpg"
+                    class="img-fluid rounded thumbnail-image"
+                  />
+                </div>
+                <div class="product-detail-container p-2">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <h5 class="dress-name">Mojito</h5>
+                    <div class="d-flex flex-column mb-2">
+                      <span class="new-price"></span>
+                      <small class="old-price text-right"></small>
+                    </div>
+                  </div>
+                  <div
+                    class="d-none justify-content-between align-items-center pt-1"
+                  >
+                    <div class="color-select d-flex">
+                      <input type="button" name="grey" class="btn creme" />
+                      <input type="button" name="red" class="btn red ml-2" />
+                      <input type="button" name="blue" class="btn blue ml-2" />
+                    </div>
+                    <div class="d-flex">
+                      <span class="item-size mr-2 btn" type="button">S</span>
+                      <span class="item-size mr-2 btn" type="button">M</span>
+                      <span class="item-size btn" type="button">L</span>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center pt-1"
+                  >
+                    <div>
+                      <i class="fa fa-star-o rating-star"></i>
+                      <span class="rating-number">4.8</span>
+                    </div>
+                    <span class="buy">Show recipe</span>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-3">
+                <div class="card voutchers">
+                  <div class="voutcher-divider">
+                    <div class="voutcher-left text-center">
+                      <span class="voutcher-name">Mojito</span>
+                      <h5 class="voutcher-code">Cocktail Apéritif</h5>
+                    </div>
+                    <div class="voutcher-right text-center border-left">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="mt-3 bi bi-heart"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <div class="image-container">
+                  <div class="first">
+                    <div
+                      class="d-none justify-content-between align-items-center"
+                    >
+                      <span class="discount">-25%</span>
+                      <span class="wishlist"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                    </div>
+                  </div>
+                  <img
+                    src="https://assets.afcdn.com/recipe/20180705/80256_w350h250c1cx1665cy1865.jpg"
+                    class="img-fluid rounded thumbnail-image"
+                  />
+                </div>
+                <div class="product-detail-container p-2">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <h5 class="dress-name">Aperol Spritz</h5>
+                    <div class="d-flex flex-column mb-2">
+                      <span class="new-price"></span>
+                      <small class="old-price text-right"></small>
+                    </div>
+                  </div>
+                  <div
+                    class="d-none justify-content-between align-items-center pt-1"
+                  >
+                    <div class="color-select d-flex">
+                      <input type="button" name="grey" class="btn creme" />
+                      <input type="button" name="red" class="btn red ml-2" />
+                      <input type="button" name="blue" class="btn blue ml-2" />
+                    </div>
+                    <div class="d-flex">
+                      <span class="item-size mr-2 btn" type="button">S</span>
+                      <span class="item-size mr-2 btn" type="button">M</span>
+                      <span class="item-size btn" type="button">L</span>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center pt-1"
+                  >
+                    <div>
+                      <i class="fa fa-star-o rating-star"></i>
+                      <span class="rating-number">4.8</span>
+                    </div>
+                    <span class="buy">Show recipe</span>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-3">
+                <div class="card voutchers">
+                  <div class="voutcher-divider">
+                    <div class="voutcher-left text-center">
+                      <span class="voutcher-name">Spritz</span>
+                      <h5 class="voutcher-code">Cocktail Apéritif</h5>
+                    </div>
+                    <div class="voutcher-right text-center border-left">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="mt-3 bi bi-heart"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <div class="image-container">
+                  <div class="first">
+                    <div
+                      class="d-none justify-content-between align-items-center"
+                    >
+                      <span class="discount">-25%</span>
+                      <span class="wishlist"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                    </div>
+                  </div>
+                  <img
+                    src="https://assets.afcdn.com/recipe/20180705/80258_w350h250c1cx974cy1535.jpg"
+                    class="img-fluid rounded thumbnail-image"
+                  />
+                </div>
+                <div class="product-detail-container p-2">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <h5 class="dress-name">Piña Colada</h5>
+                    <div class="d-flex flex-column mb-2">
+                      <span class="new-price"></span>
+                      <small class="old-price text-right"></small>
+                    </div>
+                  </div>
+                  <div
+                    class="d-none justify-content-between align-items-center pt-1"
+                  >
+                    <div class="color-select d-flex">
+                      <input type="button" name="grey" class="btn creme" />
+                      <input type="button" name="red" class="btn red ml-2" />
+                      <input type="button" name="blue" class="btn blue ml-2" />
+                    </div>
+                    <div class="d-flex">
+                      <span class="item-size mr-2 btn" type="button">S</span>
+                      <span class="item-size mr-2 btn" type="button">M</span>
+                      <span class="item-size btn" type="button">L</span>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center pt-1"
+                  >
+                    <div>
+                      <i class="fa fa-star-o rating-star"></i>
+                      <span class="rating-number">4.8</span>
+                    </div>
+                    <span class="buy">Show recipe</span>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-3">
+                <div class="card voutchers">
+                  <div class="voutcher-divider">
+                    <div class="voutcher-left text-center">
+                      <span class="voutcher-name">Piña Colada</span>
+                      <h5 class="voutcher-code">Cocktail Apéritif</h5>
+                    </div>
+                    <div class="voutcher-right text-center border-left">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="mt-3 bi bi-heart"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="display: flex; margin-top: 50px;justify-content: center; text-shadow: 5px 5px 10px black;" id="cu">  
+        
+            <h3 style="  color: black;font-family: Arial, Helvetica, sans-serif;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+              </svg>jabouadnene2002@gmail.com</h3>
+              <h3 style=" color: black; margin-left: 20px; font-family: Arial, Helvetica, sans-serif;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+              </svg>jabouadnene</h3>
+              <h3  style=" color: black; margin-left: 20px; font-family: Arial, Helvetica, sans-serif;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+              </svg>jabouadnene</h3>
+            
+      </div>
+      <div class="help" id="hp" style="margin: 70px; padding-bottom: 10%; text-shadow: 5px 5px 10px black;"><p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p></div>
+     
+      <div class="aa d-none " id="modal">
+        <div class="recipe-shadow" style="">
+          <div class="recipe-infos-container">
+            <div class="recipe-infos-users__rounded">
+
+         
+              <div class="recipe-infos-users">
+                <div class="recipe-infos-users__item"></div>
+
+                <div
+                  class="recipe-infos-users__item recipe-infos-users__rate"
+                ></div>
+
+                <div
+                  class="recipe-infos-users__item recipe-infos-users__notebookshare mrtn-hide-on-print"
+                ></div>
+
+                <div
+                  class="recipe-infos-users__item recipe-infos-users__share"
+                ></div>
+              </div>
+            </div>
+
+            <div class="recipe-infos__container">
+              <div class="recipe-infos">
+                <div class="recipe-infos__level">
+                  <span class="recipe-infos__item-title">facile</span>
+                  <div
+                    class="recipe-infos__level__container recipe-infos__level__container--level-2"
+                  >
+                    <div class="recipe-infos__level__icon-level"></div>
+                    <!--
+    -->
+                    <div class="recipe-infos__level__icon-level"></div>
+                    <!--
+    -->
+                    <div class="recipe-infos__level__icon-level"></div>
+                    <!--
+    -->
+                    <div class="recipe-infos__level__icon-level"></div>
+                  </div>
+                </div>
+
+                <div class="recipe-infos__budget">
+                  <span class="recipe-infos__item-title">Coût moyen</span>
+
+                  <div
+                    class="recipe-infos__level__container recipe-infos__level__container--level-2"
+                  >
+                    <div class="recipe-infos__level__icon-level"></div>
+                    <!--
+    -->
+                    <div class="recipe-infos__level__icon-level"></div>
+                    <!--
+    -->
+                    <div class="recipe-infos__level__icon-level"></div>
+                  </div>
+                </div>
+                <div class="recipe-infos__level">
+                    <span class=""><svg onclick="hideit()" xmlns="http://www.w3.org/2000/svg" style="color: red;" width="32" height="32" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                      </svg></span>
+                    </div>  
+              </div>
+            </div>
+          </div>
+
+          <div class="recipe-shadow-inner">
+            <div class="no-desktop no-tablet desk-simple">
+              <div class="desk-right desk-right--bordered">
+                <div class="recipe-tabs">
+                  <h2
+                    id="recipe-ingredients-tab"
+                    class="recipe-tabs__tab recipe-tabs__tab--active"
+                    data-tab="recipe-ingredients-tab"
+                  >
+                    Ingrédients
+                  </h2>
+                 
+                </div>
+                <link
+                  href="https://static.afcdn.com/relmeuc/lazyload.png"
+                  rel="preload"
+                  as="image"
+                  importance="high"
+                />
+                <h2
+                  class="recipe-tabs--alt-title recipe-tabs--alt-title__ingredients"
+                >
+                  Ingrédients
+                </h2>
+
+                <div
+                  class="recipe-tabs__tab-content recipe-tabs__tab-content--active recipe-ingredients-tab"
+                >
+                  <ul class="recipe-ingredients__list">
+                    <li
+                      id="recipe-ingredients__0__0"
+                      class="recipe-ingredients__list__item recipe-ingredients__list__item--prog"
+                    >
+                        <img
+                          class="ingredients-list__item__icon ls-is-cached lazyloaded"
+                          src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg"
+                          data-src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg" />
+                        <div
+                          class="recipe-ingredients__list__item--prog-content"
+                        >
+                          <div>
+                            <span class="recipe-ingredient-qt" data-base-qt="4"
+                              >200</span
+                            >
+                            <p
+                              class="name_singular"
+                              data-name-singular="l de jus d'oranges"
+                              style="display: none"
+                            ></p>
+                            <p
+                              class="name_plural"
+                              data-name-plural="l de jus d'oranges"
+                              style="display: none"
+                            ></p>
+                            <p
+                              class="complement_singular"
+                              data-complement-singular=""
+                              style="display: none"
+                            ></p>
+                            <p
+                              class="complement_plural"
+                              data-complement-plural=""
+                              style="display: none"
+                            ></p>
+                            <span class="ingredient">ml de jus d'oranges </span
+                            ><span class="recipe-ingredient__complement"></span>
+                          </div></div
+                      ></a>
+                    </li>
+                    <li
+                      id="recipe-ingredients__0__1"
+                      class="recipe-ingredients__list__item recipe-ingredients__list__item--prog"
+                    ><img
+                          class="ingredients-list__item__icon ls-is-cached lazyloaded"
+                          src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg"
+                          data-src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg" />
+                        <div
+                          class="recipe-ingredients__list__item--prog-content"
+                        >
+                          <div>
+                            <span class="recipe-ingredient-qt" data-base-qt="1"
+                              >1/4</span
+                            >
+                            <p
+                              class="name_singular"
+                              data-name-singular="verre de sirop de sucre de canne"
+                              style="display: none"
+                            ></p>
+                            <p
+                              class="name_plural"
+                              data-name-plural="verres de sirop de sucre de canne"
+                              style="display: none"
+                            ></p>
+                            <p
+                              class="complement_singular"
+                              data-complement-singular=""
+                              style="display: none"
+                            ></p>
+                            <p
+                              class="complement_plural"
+                              data-complement-plural=""
+                              style="display: none"
+                            ></p>
+                            <span class="ingredient"
+                              >verre de sirop de sucre de canne </span
+                            ><span class="recipe-ingredient__complement"></span>
+                          </div></div
+                      >
+                    </li>
+                    <li
+                      id="recipe-ingredients__0__2"
+                      class="recipe-ingredients__list__item recipe-ingredients__list__item--prog"
+                    >
+                     <img
+                          class="ingredients-list__item__icon ls-is-cached lazyloaded"
+                          src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg"
+                          data-src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg" />
+                        <div
+                          class="recipe-ingredients__list__item--prog-content"
+                        >
+                          <div>
+                            <span
+                              class="recipe-ingredient-qt"
+                              data-base-qt="100"
+                              >5</span
+                            >
+                            <p
+                              class="name_singular"
+                              data-name-singular="cl de rhum blanc"
+                              style="display: none"
+                            ></p>
+                            <p
+                              class="name_plural"
+                              data-name-plural="cl de rhum blanc"
+                              style="display: none"
+                            ></p>
+                            <p
+                              class="complement_singular"
+                              data-complement-singular=""
+                              style="display: none"
+                            ></p>
+                            <p
+                              class="complement_plural"
+                              data-complement-plural=""
+                              style="display: none"
+                            ></p>
+                            <span class="ingredient">cl de rhum blanc </span
+                            ><span class="recipe-ingredient__complement"></span>
+                          </div></div
+                      >
+                    </li>
+                    <li class="recipe-ingredients__list__item">
+                      <img
+                        class="ingredients-list__item__icon ls-is-cached lazyloaded"
+                        src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg"
+                        data-src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg"
+                      />
+                      <div>
+                        <span class="recipe-ingredient-qt" data-base-qt="100"
+                          >5</span
+                        >
+                        <p
+                          class="name_singular"
+                          data-name-singular="cl de jus de pamplemousses"
+                          style="display: none"
+                        ></p>
+                        <p
+                          class="name_plural"
+                          data-name-plural="cl de jus de pamplemousses"
+                          style="display: none"
+                        ></p>
+                        <p
+                          class="complement_singular"
+                          data-complement-singular=""
+                          style="display: none"
+                        ></p>
+                        <p
+                          class="complement_plural"
+                          data-complement-plural=""
+                          style="display: none"
+                        ></p>
+                        <span class="ingredient"
+                          >cl de jus de pamplemousses </span
+                        ><span class="recipe-ingredient__complement"></span>
+                      </div>
+                    </li>
+                    <li class="recipe-ingredients__list__item">
+                      <img
+                        class="ingredients-list__item__icon ls-is-cached lazyloaded"
+                        src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg"
+                        data-src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg"
+                      />
+                      <div>
+                        <span class="recipe-ingredient-qt" data-base-qt="100"
+                          >5</span
+                        >
+                        <p
+                          class="name_singular"
+                          data-name-singular="cl de jus de fruits exotiques"
+                          style="display: none"
+                        ></p>
+                        <p
+                          class="name_plural"
+                          data-name-plural="cl de jus de fruits exotiques"
+                          style="display: none"
+                        ></p>
+                        <p
+                          class="complement_singular"
+                          data-complement-singular=""
+                          style="display: none"
+                        ></p>
+                        <p
+                          class="complement_plural"
+                          data-complement-plural=""
+                          style="display: none"
+                        ></p>
+                        <span class="ingredient"
+                          >cl de jus de fruits exotiques </span
+                        ><span class="recipe-ingredient__complement"></span>
+                      </div>
+                    </li>
+                    <li class="recipe-ingredients__list__item">
+                      <img
+                        class="ingredients-list__item__icon ls-is-cached lazyloaded"
+                        src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg"
+                        data-src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg"
+                      />
+                      <div>
+                        <span class="recipe-ingredient-qt" data-base-qt="2"
+                          >1/4</span
+                        >
+                        <p
+                          class="name_singular"
+                          data-name-singular="gousses de vanille"
+                          style="display: none"
+                        ></p>
+                        <p
+                          class="name_plural"
+                          data-name-plural="gousses de vanille"
+                          style="display: none"
+                        ></p>
+                        <p
+                          class="complement_singular"
+                          data-complement-singular=""
+                          style="display: none"
+                        ></p>
+                        <p
+                          class="complement_plural"
+                          data-complement-plural=""
+                          style="display: none"
+                        ></p>
+                        <span class="ingredient">gousses de vanille </span
+                        ><span class="recipe-ingredient__complement"></span>
+                      </div>
+                    </li>
+                    <li
+                      id="recipe-ingredients__0__6"
+                      class="recipe-ingredients__list__item recipe-ingredients__list__item--prog"
+                    ><img
+                          class="ingredients-list__item__icon ls-is-cached lazyloaded"
+                          src="https://assets.afcdn.com/recipe/20180703/80159_w60h60c1cx350cy350.jpg"
+                          data-src="https://assets.afcdn.com/recipe/20180703/80159_w60h60c1cx350cy350.jpg" />
+                        <div
+                          class="recipe-ingredients__list__item--prog-content"
+                        >
+                          <div>
+                            <span class="recipe-ingredient-qt" data-base-qt="40"
+                              >2</span
+                            >
+                            <p
+                              class="name_singular"
+                              data-name-singular="cl de rhum ambré"
+                              style="display: none"
+                            ></p>
+                            <p
+                              class="name_plural"
+                              data-name-plural="cl de rhum ambré"
+                              style="display: none"
+                            ></p>
+                            <p
+                              class="complement_singular"
+                              data-complement-singular=""
+                              style="display: none"
+                            ></p>
+                            <p
+                              class="complement_plural"
+                              data-complement-plural=""
+                              style="display: none"
+                            ></p>
+                            <span class="ingredient">cl de rhum ambré </span
+                            ><span class="recipe-ingredient__complement"></span>
+                          </div></div
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+
+
+                <br />
+                <div class="mrtn_format white-back mrtn-hide-on-print">
+                  <div
+                    class="div-gpt-ad-native_shopping_wrapper unfyas af-banner"
+                    id="div-gpt-ad-native_shopping_wrapper"
+                    style="text-align: center"
+                  >
+                    <div
+                      id="div-gpt-ad-native_shopping"
+                      data-google-query-id="CMaltITUz_YCFa66UQodXiAG8g"
+                      style="display: none"
+                    >
+
+                      <div
+                        id="google_ads_iframe_/229683329/1001cocktails/organic/others/native_shopping_0__container__"
+                        style="border: 0pt none; width: 229px; height: 0px"
+                      ></div>
+                    </div>
+                  </div>
+
+                </div>
+
+
+              </div>
+            </div>
+
+            <div class="padded-content col-center-special-desktop">
+              <h2 id="prepararion-title" class="title-2">Préparation</h2>
+
+              <ol class="recipe-preparation__list">
+                <li class="recipe-preparation__list__item">
+                  Réalisez la recette "Punch exotique" dans un grand récipient.
+                </li>
+                <li class="recipe-preparation__list__item">
+                  On préfèrera utiliser un rhum blanc classique. Le mélange se
+                  prépare entre 4 heures à 2 jours avant d'être consommé. <br />
+                  Fendez les deux gousses de vanille, mettez-les avec tous les
+                  autres ingrédients dans un grand récipient et laisser reposer
+                  (macération). Le jour de la consommation, ajuster le goût avec
+                  un complément de sucre de canne si trop acide ou de jus
+                  d'orange ou de pamplemousse si trop sucré. Laissez à
+                  disposition sirop de citron et sirop de sucre de canne selon
+                  les goûts et n'ajoutez pas de glace, ça tue le punch! Servez à
+                  la louche et n'oubliez pas de trinquer. .
+                </li>
+                <li class="recipe-preparation__list__item">
+                  Servir dans un verre de type "tumbler".
+                </li>
+                <li class="recipe-preparation__list__item">
+                  Eventuellement, des tranches d'orange à placer sur le bord du
+                  verre.
+                </li>
+              </ol>
+
+              <div
+                class="recipe-chief-tip mrtn-recipe-bloc recipe-chief-tip-empty"
+              ></div>
+            </div>
+          </div>
+          <!-- recipe-shadow-inner -->
+        </div>
+      </div>
+      <div class="aa d-none " id="modal1">
+        <div class="recipe-shadow" style="">
+          <div class="recipe-infos-container">
+            <div class="recipe-infos-users__rounded">
+
+         
+              <div class="recipe-infos-users">
+                <div class="recipe-infos-users__item"></div>
+
+                <div
+                  class="recipe-infos-users__item recipe-infos-users__rate"
+                ></div>
+
+                <div
+                  class="recipe-infos-users__item recipe-infos-users__notebookshare mrtn-hide-on-print"
+                ></div>
+
+                <div
+                  class="recipe-infos-users__item recipe-infos-users__share"
+                ></div>
+              </div>
+            </div>
+
+            <div class="recipe-infos__container">
+              <div class="recipe-infos">
+                <div class="recipe-infos__level">
+                  <span class="recipe-infos__item-title">facile</span>
+                  <div
+                    class="recipe-infos__level__container recipe-infos__level__container--level-2"
+                  >
+                    <div class="recipe-infos__level__icon-level"></div>
+                    <!--
+    -->
+                    <div class="recipe-infos__level__icon-level"></div>
+                    <!--
+    -->
+                    <div class="recipe-infos__level__icon-level"></div>
+                    <!--
+    -->
+                    <div class="recipe-infos__level__icon-level"></div>
+                  </div>
+                </div>
+
+                <div class="recipe-infos__budget">
+                  <span class="recipe-infos__item-title">Coût moyen</span>
+
+                  <div
+                    class="recipe-infos__level__container recipe-infos__level__container--level-2"
+                  >
+                    <div class="recipe-infos__level__icon-level"></div>
+                    <!--
+    -->
+                    <div class="recipe-infos__level__icon-level"></div>
+                    <!--
+    -->
+                    <div class="recipe-infos__level__icon-level"></div>
+                  </div>
+                </div>
+                <div class="recipe-infos__level">
+                    <span class=""><svg onclick="hideit(1 )" xmlns="http://www.w3.org/2000/svg" style="color: red;" width="32" height="32" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                      </svg></span>
+                    </div>  
+              </div>
+            </div>
+          </div>
+
+          <div class="recipe-shadow-inner">
+            <div class="no-desktop no-tablet desk-simple">
+                <div class="desk-right desk-right--bordered">
+                    <div class="recipe-tabs">
+                        <h2 id="recipe-ingredients-tab" class="recipe-tabs__tab recipe-tabs__tab--active" data-tab="recipe-ingredients-tab">
+                            Ingrédients								</h2>
+                                                            <h2 id="recipe-utensils-tab" class="recipe-tabs__tab" data-tab="recipe-utensils-tab">
+                                Ustensiles									</h2>
+                                                    </div>
+
+
+
+
+<h2 class="recipe-tabs--alt-title recipe-tabs--alt-title__ingredients">
+Ingrédients</h2>
+
+<div class="recipe-tabs__tab-content recipe-tabs__tab-content--active recipe-ingredients-tab">
+
+<div class="recipe-ingredients__header">
+            
+    <div class="recipe-ingredients__qt-counter_container">          </div>
+    </div>
+
+
+<ul class="recipe-ingredients__list">
+<li id="recipe-ingredients__0__0" class="recipe-ingredients__list__item recipe-ingredients__list__item--prog">
+<a href="https://www.amazon.fr/Bacardi-Carta-Blanca-37-100cl/dp/B017T0GI2C/?tag=ckt-i-7855-21" target="_blank" onclick="af_ua_trackEvent('OPS', 'Recipe - BrandIngredient - Click', '[Amazon] 7855 - rhum cubain (havana club, bacardi)')"><img class="ingredients-list__item__icon ls-is-cached lazyloaded" src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg" data-src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg"><div class="recipe-ingredients__list__item--prog-content"><div><span class="recipe-ingredient-qt" data-base-qt="6">6</span>
+            <p class="name_singular" data-name-singular="cl de rhum cubain (havana club, bacardi)" style="display: none;"></p>
+            <p class="name_plural" data-name-plural="cl de rhum cubain (havana club, bacardi)" style="display: none;"></p>
+            <p class="complement_singular" data-complement-singular="" style="display: none;"></p>
+            <p class="complement_plural" data-complement-plural="" style="display: none;"></p><span class="ingredient">cl de rhum cubain (havana club, bacardi) </span><span class="recipe-ingredient__complement"></span></div></div></a>	</li>
+        <li class="recipe-ingredients__list__item">
+<img class="ingredients-list__item__icon lazyloaded" src="https://assets.afcdn.com/recipe/20210630/120999_w60h60c1cx250cy250.jpg" data-src="https://assets.afcdn.com/recipe/20210630/120999_w60h60c1cx250cy250.jpg"><div><span class="recipe-ingredient-qt" data-base-qt="3">3</span>
+            <p class="name_singular" data-name-singular="cl de jus de citrons verts" style="display: none;"></p>
+            <p class="name_plural" data-name-plural="cl de jus de citrons verts" style="display: none;"></p>
+            <p class="complement_singular" data-complement-singular="" style="display: none;"></p>
+            <p class="complement_plural" data-complement-plural="" style="display: none;"></p><span class="ingredient">cl de jus de citrons verts </span><span class="recipe-ingredient__complement"></span></div>	</li>
+        <li class="recipe-ingredients__list__item">
+<img class="ingredients-list__item__icon lazyloaded" src="https://assets.afcdn.com/recipe/20210701/121033_w60h60c1cx256cy212.jpg" data-src="https://assets.afcdn.com/recipe/20210701/121033_w60h60c1cx256cy212.jpg"><div><span class="recipe-ingredient-qt" data-base-qt="7">7</span>
+            <p class="name_singular" data-name-singular="feuille de menthe" style="display: none;"></p>
+            <p class="name_plural" data-name-plural="feuilles de menthe" style="display: none;"></p>
+            <p class="complement_singular" data-complement-singular="" style="display: none;"></p>
+            <p class="complement_plural" data-complement-plural="" style="display: none;"></p><span class="ingredient">feuilles de menthe </span><span class="recipe-ingredient__complement"></span></div>	</li>
+        <li id="recipe-ingredients__0__3" class="recipe-ingredients__list__item recipe-ingredients__list__item--prog">
+<a href="https://www.amazon.fr/Perrier-Citron-Vert-Min%C3%A9rale-Bouteille/dp/B01LYOALEV/?tag=ckt-i-7812-21" target="_blank" onclick="af_ua_trackEvent('OPS', 'Recipe - BrandIngredient - Click', '[Amazon] 7812 - eau gazeuse')"><img class="ingredients-list__item__icon ls-is-cached lazyloaded" src="https://assets.afcdn.com/recipe/20181130/84441_w60h60c1cx250cy250.jpg" data-src="https://assets.afcdn.com/recipe/20181130/84441_w60h60c1cx250cy250.jpg"><div class="recipe-ingredients__list__item--prog-content"><div><span class="recipe-ingredient-qt" data-base-qt=""></span>
+            <p class="name_singular" data-name-singular="eau gazeuse" style="display: none;"></p>
+            <p class="name_plural" data-name-plural="eau gazeuse" style="display: none;"></p>
+            <p class="complement_singular" data-complement-singular="" style="display: none;"></p>
+            <p class="complement_plural" data-complement-plural="" style="display: none;"></p><span class="ingredient">Eau gazeuse</span><span class="recipe-ingredient__complement"> </span></div></div></a>	</li>
+        <li id="recipe-ingredients__0__4" class="recipe-ingredients__list__item recipe-ingredients__list__item--prog">
+<a href="https://www.amazon.fr/Sirop-Sucre-Canne-Giffard-1L/dp/B00312VZLC/?tag=ckt-i-7826-21" target="_blank" onclick="af_ua_trackEvent('OPS', 'Recipe - BrandIngredient - Click', '[Amazon] 7826 - sirop de sucre de canne')"><img class="ingredients-list__item__icon ls-is-cached lazyloaded" src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg" data-src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg"><div class="recipe-ingredients__list__item--prog-content"><div><span class="recipe-ingredient-qt" data-base-qt="2">2</span>
+            <p class="name_singular" data-name-singular="cl de sirop de sucre de canne" style="display: none;"></p>
+            <p class="name_plural" data-name-plural="cl de sirop de sucre de canne" style="display: none;"></p>
+            <p class="complement_singular" data-complement-singular="" style="display: none;"></p>
+            <p class="complement_plural" data-complement-plural="" style="display: none;"></p><span class="ingredient">cl de sirop de sucre de canne </span><span class="recipe-ingredient__complement"></span></div></div></a>	</li>
+        </ul>
+
+</div>
+
+
+<script type="text/javascript" crossorigin="anonymous" src="https://static.afcdn.com/relmeuc/concat.js?PCM-bY2xDsIwDES_hrFVmkowMVVirhBiD4lVBRI7cgwSf0_SiiWw3fne-WazwOWdYKdPDNavIrJgdwtkH_09HyeKiRBQSuJxYXC-mHz-0j-3WroCOuL6y3D0QlikJXwBZ09YifnPsEBMwQh0gItHaNc3bqInCnDrWziQcSu1iRL3WmmtxuEw7NX4AQ"></script>
+<script type="text/javascript">
+var ingredientsGroups = new Mrtn.IngredientsGroups();
+ingredientsGroups.updateQts();
+
+var appIngredientsRecipe = new Mrtn.IngredientsRecipe();
+appIngredientsRecipe.init({
+ingredientsGroups: [{"id":83778,"name":null,"position":1,"ingredient_group_items":[{"id":1234898,"ingredient":{"id":7855,"story_id":null,"name":"rhum cubain (havana club, bacardi)","plural":"rhum cubain (havana club, bacardi)","token":"rhum-cubain-havana-club-bacardi","picture":null,"is_prog":true,"modification_date":null,"album_id":null,"selection_id":null,"ingredient_infos":null,"url_pinterest":null,"is_gluten":false,"is_pork":false,"is_vegan":false,"is_vegetarian":false,"is_fish":false,"is_nuts":false,"is_egg":false,"is_lactose":false,"url":"https:\/\/www.amazon.fr\/Bacardi-Carta-Blanca-37-100cl\/dp\/B017T0GI2C\/?tag=ckt-i-7855-21","brand_id":258,"brand_name":"Amazon","season_status":1,"etq_id":null,"nutri_score":null,"show_nutri_score":false,"topUnits":[{"id":"364","name":{"single":"cl","plural":"cl"},"shortName":{"single":"cl","plural":"cl"}},{"id":"377","name":{"single":"trait","plural":"traits"},"shortName":{"single":"trait","plural":"trait"}},{"id":"362","name":{"single":"l","plural":"l"},"shortName":{"single":"l","plural":"l"}}],"buy_text":null},"quantity":6,"position":1,"complement":"","complement_plural":"","unit":{"id":364,"short_name":"cl","name":"cl","plural":"cl","fullname":"centilitre","etq_id":null}},{"id":1234899,"ingredient":{"id":7828,"story_id":null,"name":"jus de citrons verts","plural":"jus de citrons verts","token":"jus-de-citrons-verts","picture":{"id":120999,"origin_id":7828,"type_id":3,"url_origin":"https:\/\/assets.afcdn.com\/recipe\/20210630\/120999_origin.jpg","width":500,"height":500,"origin_width":500,"origin_height":500,"center_x":250,"center_y":250,"crop_x_top":0,"crop_y_top":0,"crop_x_bottom":500,"crop_y_bottom":500,"position":9999,"alt":"","credits":"","creation_date":"2021-06-30T14:12:24+02:00","authorId":null,"user":null,"author_name":null,"datestring":"20210630","status":1,"extension":"jpg"},"is_prog":false,"modification_date":"2021-06-30T14:12:28+02:00","album_id":null,"selection_id":null,"ingredient_infos":null,"url_pinterest":null,"is_gluten":false,"is_pork":false,"is_vegan":false,"is_vegetarian":false,"is_fish":false,"is_nuts":false,"is_egg":false,"is_lactose":false,"url":null,"brand_id":null,"brand_name":null,"season_status":1,"etq_id":null,"nutri_score":null,"show_nutri_score":false,"topUnits":[{"id":"364","name":{"single":"cl","plural":"cl"},"shortName":{"single":"cl","plural":"cl"}},{"id":"377","name":{"single":"trait","plural":"traits"},"shortName":{"single":"trait","plural":"trait"}},{"id":"365","name":{"single":"ml","plural":"ml"},"shortName":{"single":"ml","plural":"ml"}},{"id":"376","name":{"single":"volume","plural":"volumes"},"shortName":{"single":"volume","plural":"volume"}},{"id":"378","name":{"single":"goutte","plural":"gouttes"},"shortName":{"single":"goutte","plural":"goutte"}},{"id":"393","name":{"single":"louche","plural":"louches"},"shortName":{"single":"louche","plural":"louche"}},{"id":"370","name":{"single":"cuill\u00e8re","plural":"cuill\u00e8res"},"shortName":{"single":"cuill\u00e8re","plural":"cuill\u00e8re"}}]},"quantity":3,"position":2,"complement":"","complement_plural":"","unit":{"id":364,"short_name":"cl","name":"cl","plural":"cl","fullname":"centilitre","etq_id":null}},{"id":1234900,"ingredient":{"id":8018,"story_id":null,"name":"feuille de menthe","plural":"feuilles de menthe","token":"feuille-de-menthe","picture":{"id":121033,"origin_id":8018,"type_id":3,"url_origin":"https:\/\/assets.afcdn.com\/recipe\/20210701\/121033_origin.jpg","width":512,"height":424,"origin_width":512,"origin_height":424,"center_x":256,"center_y":212,"crop_x_top":0,"crop_y_top":0,"crop_x_bottom":512,"crop_y_bottom":424,"position":9999,"alt":"","credits":"","creation_date":"2021-07-01T10:16:36+02:00","authorId":null,"user":null,"author_name":null,"datestring":"20210701","status":1,"extension":"jpg"},"is_prog":false,"modification_date":"2021-07-01T10:16:41+02:00","album_id":null,"selection_id":null,"ingredient_infos":null,"url_pinterest":null,"is_gluten":false,"is_pork":false,"is_vegan":false,"is_vegetarian":false,"is_fish":false,"is_nuts":false,"is_egg":false,"is_lactose":false,"url":null,"brand_id":null,"brand_name":null,"season_status":1,"etq_id":null,"nutri_score":null,"show_nutri_score":false,"topUnits":[{"id":"364","name":{"single":"cl","plural":"cl"},"shortName":{"single":"cl","plural":"cl"}},{"id":"367","name":{"single":"g","plural":"g"},"shortName":{"single":"g","plural":"g"}},{"id":"382","name":{"single":"pinc\u00e9e","plural":"pinc\u00e9es"},"shortName":{"single":"pinc\u00e9e","plural":"pinc\u00e9e"}},{"id":"390","name":{"single":"quelque","plural":"quelques"},"shortName":{"single":"quelque","plural":"quelque"}},{"id":"372","name":{"single":"cuill\u00e8re \u00e0 soupe","plural":"cuill\u00e8res \u00e0 soupe"},"shortName":{"single":"cuill\u00e8re \u00e0 soupe","plural":"cuill\u00e8re \u00e0 soupe"}},{"id":"381","name":{"single":"poign\u00e9e","plural":"poign\u00e9es"},"shortName":{"single":"poign\u00e9e","plural":"poign\u00e9e"}}]},"quantity":7,"position":3,"complement":"","complement_plural":""},{"id":1234901,"ingredient":{"id":7812,"story_id":null,"name":"eau gazeuse","plural":"eau gazeuse","token":"eau-gazeuse","picture":{"id":84441,"origin_id":7812,"type_id":3,"url_origin":"https:\/\/assets.afcdn.com\/recipe\/20181130\/84441_origin.jpg","width":500,"height":500,"origin_width":500,"origin_height":500,"center_x":250,"center_y":250,"crop_x_top":0,"crop_y_top":0,"crop_x_bottom":500,"crop_y_bottom":500,"position":9999,"alt":"","credits":"","creation_date":"2018-11-30T11:02:18+01:00","authorId":null,"user":null,"author_name":null,"datestring":"20181130","status":1,"extension":"jpg"},"is_prog":true,"modification_date":"2019-07-12T10:48:12+02:00","album_id":null,"selection_id":null,"ingredient_infos":null,"url_pinterest":null,"is_gluten":false,"is_pork":false,"is_vegan":false,"is_vegetarian":false,"is_fish":false,"is_nuts":false,"is_egg":false,"is_lactose":false,"url":"https:\/\/www.amazon.fr\/Perrier-Citron-Vert-Min%C3%A9rale-Bouteille\/dp\/B01LYOALEV\/?tag=ckt-i-7812-21","brand_id":258,"brand_name":"Amazon","season_status":1,"etq_id":null,"nutri_score":null,"show_nutri_score":false,"topUnits":[{"id":"364","name":{"single":"cl","plural":"cl"},"shortName":{"single":"cl","plural":"cl"}},{"id":"362","name":{"single":"l","plural":"l"},"shortName":{"single":"l","plural":"l"}},{"id":"377","name":{"single":"trait","plural":"traits"},"shortName":{"single":"trait","plural":"trait"}},{"id":"365","name":{"single":"ml","plural":"ml"},"shortName":{"single":"ml","plural":"ml"}}],"buy_text":null},"position":4,"complement":"","complement_plural":""},{"id":1234902,"ingredient":{"id":7826,"story_id":null,"name":"sirop de sucre de canne","plural":"sirop de sucre de canne","token":"sirop-de-sucre-de-canne","picture":null,"is_prog":true,"modification_date":null,"album_id":null,"selection_id":null,"ingredient_infos":null,"url_pinterest":null,"is_gluten":false,"is_pork":false,"is_vegan":false,"is_vegetarian":false,"is_fish":false,"is_nuts":false,"is_egg":false,"is_lactose":false,"url":"https:\/\/www.amazon.fr\/Sirop-Sucre-Canne-Giffard-1L\/dp\/B00312VZLC\/?tag=ckt-i-7826-21","brand_id":258,"brand_name":"Amazon","season_status":1,"etq_id":null,"nutri_score":null,"show_nutri_score":false,"topUnits":[{"id":"364","name":{"single":"cl","plural":"cl"},"shortName":{"single":"cl","plural":"cl"}},{"id":"377","name":{"single":"trait","plural":"traits"},"shortName":{"single":"trait","plural":"trait"}},{"id":"372","name":{"single":"cuill\u00e8re \u00e0 soupe","plural":"cuill\u00e8res \u00e0 soupe"},"shortName":{"single":"cuill\u00e8re \u00e0 soupe","plural":"cuill\u00e8re \u00e0 soupe"}},{"id":"370","name":{"single":"cuill\u00e8re","plural":"cuill\u00e8res"},"shortName":{"single":"cuill\u00e8re","plural":"cuill\u00e8re"}},{"id":"367","name":{"single":"g","plural":"g"},"shortName":{"single":"g","plural":"g"}},{"id":"371","name":{"single":"cuill\u00e8re \u00e0 caf\u00e9","plural":"cuill\u00e8res \u00e0 caf\u00e9"},"shortName":{"single":"cuill\u00e8re \u00e0 caf\u00e9","plural":"cuill\u00e8re \u00e0 caf\u00e9"}},{"id":"362","name":{"single":"l","plural":"l"},"shortName":{"single":"l","plural":"l"}},{"id":"386","name":{"single":"verre","plural":"verres"},"shortName":{"single":"verre","plural":"verre"}},{"id":"365","name":{"single":"ml","plural":"ml"},"shortName":{"single":"ml","plural":"ml"}},{"id":"376","name":{"single":"volume","plural":"volumes"},"shortName":{"single":"volume","plural":"volume"}},{"id":"393","name":{"single":"louche","plural":"louches"},"shortName":{"single":"louche","plural":"louche"}}],"buy_text":null},"quantity":2,"position":5,"complement":"","complement_plural":"","unit":{"id":364,"short_name":"cl","name":"cl","plural":"cl","fullname":"centilitre","etq_id":null}}],"modification_date":null}]
+});
+</script>
+<script type="text/javascript">
+var appBlock = new MrtnBlock();
+appBlock.init({
+blockClassName: "recipe-ingredients__list",
+actionGA: "IngredientsBlock - Display - Sampling 10%",
+sampling: 10
+});
+</script>
+<script type="text/javascript">
+af_addEvent(window, 'scroll', af_lazyloading, false);
+af_addEvent(window, 'load', af_lazyloading, false);
+</script>
+                    <br>
+                                                                                    <div class="mrtn_format white-back mrtn-hide-on-print">
+                    <div class="div-gpt-ad-native_shopping_wrapper unfyas af-banner" id="div-gpt-ad-native_shopping_wrapper" style="text-align: center;"><div id="div-gpt-ad-native_shopping" data-google-query-id="CPWT_enhz_YCFbX41QodJ0QDZw" style="display: none;"><script type="text/javascript">googletag.display("div-gpt-ad-native_shopping");afAd.detectOneCall("native_shopping");</script><div id="google_ads_iframe_/229683329/1001cocktails/organic/others/native_shopping_0__container__" style="border: 0pt none; width: 229px; height: 0px;"></div></div></div><script type="text/javascript">
+    if (window.afAd) {
+        afAd.render("native_shopping", []);
+    }
+</script>						</div>
+                                                    
+
+    
+
+
+                    
+                    
+                </div>
+
+            </div>
+
+            <div class="padded-content col-center-special-desktop">
+              <h2 id="prepararion-title" class="title-2">Préparation</h2>
+
+              <ol class="recipe-preparation__list">
+                <li class="recipe-preparation__list__item">
+                  Réalisez la recette "Punch exotique" dans un grand récipient.
+                </li>
+                <li class="recipe-preparation__list__item">
+                  On préfèrera utiliser un rhum blanc classique. Le mélange se
+                  prépare entre 4 heures à 2 jours avant d'être consommé. <br />
+                  Fendez les deux gousses de vanille, mettez-les avec tous les
+                  autres ingrédients dans un grand récipient et laisser reposer
+                  (macération). Le jour de la consommation, ajuster le goût avec
+                  un complément de sucre de canne si trop acide ou de jus
+                  d'orange ou de pamplemousse si trop sucré. Laissez à
+                  disposition sirop de citron et sirop de sucre de canne selon
+                  les goûts et n'ajoutez pas de glace, ça tue le punch! Servez à
+                  la louche et n'oubliez pas de trinquer. .
+                </li>
+                <li class="recipe-preparation__list__item">
+                  Servir dans un verre de type "tumbler".
+                </li>
+                <li class="recipe-preparation__list__item">
+                  Eventuellement, des tranches d'orange à placer sur le bord du
+                  verre.
+                </li>
+              </ol>
+
+              <div
+                class="recipe-chief-tip mrtn-recipe-bloc recipe-chief-tip-empty"
+              ></div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="aa d-none " id="modal2">
+        <div class="recipe-infos-container">
+                    
+            <div class="recipe-infos-users__rounded">
+                
+<script type="text/html" id="addToShoppingList-success-template">
+<div class="mrtn-add-to-shopping-list--sucess noty-with-icon">
+<a class="mrtn-add-to-shopping-list--sucess__main-link noty__main-link" href="/espace-perso/liste-de-courses.aspx">
+    <div class="noty-icon">
+        <img class="mrtn-add-to-shopping-list--sucess__icon" src="https://static.afcdn.com/relmeuc/Front/Component/ingredientsRecipe/assets/courses.png" />
+    </div>
+    <p class="mrtn-add-to-shopping-list--sucess__message noty__message">Les ingrédients ont été ajoutés à votre liste de course</p>
+    <span class="noty__link-label">Voir ma liste</span>
+</a>
+</div>
+</script>
+
+<div class="recipe-infos-users">
+<div class="recipe-infos-users__item">
+<a class="recipe-infos-users__link" href="#">
+
+</a>
+</div>
+
+<div class="recipe-infos-users__item recipe-infos-users__rate">
+</div>
+
+<div class="recipe-infos-users__item recipe-infos-users__notebookshare mrtn-hide-on-print">
+</div>
+
+
+
+<div class="recipe-infos-users__item recipe-infos-users__print">
+<a href="javascript:window.print()" onclick="af_callTracking('print', '/virtual' + document.location.pathname + '/print');af_ua_trackEvent('Recipe','Print',unify_dataSlayer[1].content.label);" class="recipe__mrtn-print-link">
+<span>
+
+</a>
+</div>
+</div>
+            </div>
+
+            <div class="recipe-infos__container">
+                
+<div class="recipe-infos">
+
+    
+
+<div class="recipe-infos__level">
+<span class="recipe-infos__item-title">facile</span>
+<div class="recipe-infos__level__container recipe-infos__level__container--level-2">
+    <div class="recipe-infos__level__icon-level"></div><!--
+    --><div class="recipe-infos__level__icon-level"></div><!--
+    --><div class="recipe-infos__level__icon-level"></div><!--
+    --><div class="recipe-infos__level__icon-level"></div>
+</div>
+</div>
+
+<div class="recipe-infos__budget">
+<span class="recipe-infos__item-title">Coût moyen</span>
+
+<div class="recipe-infos__level__container recipe-infos__level__container--level-2">
+    <div class="recipe-infos__level__icon-level"></div><!--
+    --><div class="recipe-infos__level__icon-level"></div><!--
+    --><div class="recipe-infos__level__icon-level"></div>
+</div>
+
+</div>
+<div class="recipe-infos__level">
+    <span class=""><svg onclick="hideit(2)" xmlns="http://www.w3.org/2000/svg" style="color: red;" width="32" height="32" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+      </svg></span>
+</div> 
+
+</div>
+            </div>
+        </div>
+        <div class="recipe-shadow-inner">
+            <div class="no-desktop no-tablet desk-simple">
+                <div class="desk-right desk-right--bordered">
+                    <div class="recipe-tabs">
+                        <h2 id="recipe-ingredients-tab" class="recipe-tabs__tab recipe-tabs__tab--active" data-tab="recipe-ingredients-tab">
+                            Ingrédients								</h2>
+                                                            <h2 id="recipe-utensils-tab" class="recipe-tabs__tab" data-tab="recipe-utensils-tab">
+                                                    </div>
+
+
+
+<script type="text/html" id="loader_template">
+<div class="content-loader" id="<%=name%>">
+<div class="loader"></div>
+</div>
+</script>
+<script type="text/html" id="recipe-ingredients__qt-counter_template">
+<div class="recipe-ingredients__qt-counter <%=size%>">
+<div class="recipe-ingredients__qt-counter__increment recipe-ingredients__qt-counter__increment-minus minus">−</div>
+<div class="recipe-ingredients__qt-counter__value_container unit-<%=withUnit%>">
+    <input
+        class="recipe-ingredients__qt-counter__value title-5"
+        type="text"
+        value="<%=value%>"
+        min="<%=min%>"
+        max="<%=max%>"
+        aria-label="counter"
+    >
+    <span class="recipe-ingredients__qt-counter_unit"><%=unit%></span>
+</div>
+<div class="recipe-ingredients__qt-counter__increment recipe-ingredients__qt-counter__increment-plus plus">+</div>
+</div>
+</script>
+
+<script type="text/html" id="quantity-counter_template">
+<div class="quantity-counter">
+<div class="quantity-counter__action minus">−</div>
+
+<div class="quantity-counter__value">
+    <input
+            class="recipe-ingredients__qt-counter__value title-5"
+            type="text"
+            value="<%=value%>"
+            min="<%=min%>"
+            max="<%=max%>"
+            aria-label="counter"
+    >
+    <div class="quantity-counter__unit"><%=unit%></div>
+</div>
+<div class="quantity-counter__action plus">+</div>
+</div>
+</script>
+
+<h2 class="recipe-tabs--alt-title recipe-tabs--alt-title__ingredients">
+Ingrédients</h2>
+
+<div class="recipe-tabs__tab-content recipe-tabs__tab-content--active recipe-ingredients-tab">
+
+
+
+<ul class="recipe-ingredients__list">
+<li id="recipe-ingredients__0__0" class="recipe-ingredients__list__item recipe-ingredients__list__item--prog">
+<a href="https://www.amazon.fr/Perrier-Citron-Vert-Min%C3%A9rale-Bouteille/dp/B01LYOALEV/?tag=ckt-i-7812-21" target="_blank" onclick="af_ua_trackEvent('OPS', 'Recipe - BrandIngredient - Click', '[Amazon] 7812 - eau gazeuse')"><img class="ingredients-list__item__icon ls-is-cached lazyloaded" src="https://assets.afcdn.com/recipe/20181130/84441_w60h60c1cx250cy250.jpg" data-src="https://assets.afcdn.com/recipe/20181130/84441_w60h60c1cx250cy250.jpg"><div class="recipe-ingredients__list__item--prog-content"><div><span class="recipe-ingredient-qt" data-base-qt="2">2</span>
+            <p class="name_singular" data-name-singular="cl d'eau gazeuse" style="display: none;"></p>
+            <p class="name_plural" data-name-plural="cl d'eau gazeuse" style="display: none;"></p>
+            <p class="complement_singular" data-complement-singular="" style="display: none;"></p>
+            <p class="complement_plural" data-complement-plural="" style="display: none;"></p><span class="ingredient">cl d'eau gazeuse </span><span class="recipe-ingredient__complement"></span></div></div></a>	</li>
+        <li id="recipe-ingredients__0__1" class="recipe-ingredients__list__item recipe-ingredients__list__item--prog">
+<a href="https://www.amazon.fr/GRAND-SUD-676329-Grand-France/dp/B01LQ9BYE4/?tag=ckt-i-7968-21" target="_blank" onclick="af_ua_trackEvent('OPS', 'Recipe - BrandIngredient - Click', '[Amazon] 7968 - vin blanc')"><img class="ingredients-list__item__icon ls-is-cached lazyloaded" src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg" data-src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg"><div class="recipe-ingredients__list__item--prog-content"><div><span class="recipe-ingredient-qt" data-base-qt="5">5</span>
+            <p class="name_singular" data-name-singular="cl de vin blanc" style="display: none;"></p>
+            <p class="name_plural" data-name-plural="cl de vin blanc" style="display: none;"></p>
+            <p class="complement_singular" data-complement-singular="" style="display: none;"></p>
+            <p class="complement_plural" data-complement-plural="" style="display: none;"></p><span class="ingredient">cl de vin blanc </span><span class="recipe-ingredient__complement"></span></div></div></a>	</li>
+        <li class="recipe-ingredients__list__item">
+<img class="ingredients-list__item__icon ls-is-cached lazyloaded" src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg" data-src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg"><div><span class="recipe-ingredient-qt" data-base-qt="3">3</span>
+            <p class="name_singular" data-name-singular="cl d'aperol" style="display: none;"></p>
+            <p class="name_plural" data-name-plural="cl d'aperol" style="display: none;"></p>
+            <p class="complement_singular" data-complement-singular="" style="display: none;"></p>
+            <p class="complement_plural" data-complement-plural="" style="display: none;"></p><span class="ingredient">cl d'aperol </span><span class="recipe-ingredient__complement"></span></div>	</li>
+        </ul>
+
+</div>
+
+
+<script type="text/javascript" crossorigin="anonymous" src="https://static.afcdn.com/relmeuc/concat.js?PCM-bY2xDsIwDES_hrFVm8LIVIm5Qog9JFYUSOzIMUj8PUkrlsB253vnW7SDyzvBTp0YjF9FZMHuFsg8-ns-zhQTIaCUxKNjsL6YfP7SP7daugJa4vpLc_RCWKQhfAFnT1iJ5c-wQExBC3SAziO06xs30xMFuPUtHEjbldpEiXs1KDVM42Hcq-kD"></script>
+<script type="text/javascript">
+var ingredientsGroups = new Mrtn.IngredientsGroups();
+ingredientsGroups.updateQts();
+
+var appIngredientsRecipe = new Mrtn.IngredientsRecipe();
+appIngredientsRecipe.init({
+ingredientsGroups: [{"id":87135,"name":null,"position":1,"ingredient_group_items":[{"id":1248064,"ingredient":{"id":7812,"story_id":null,"name":"eau gazeuse","plural":"eau gazeuse","token":"eau-gazeuse","picture":{"id":84441,"origin_id":7812,"type_id":3,"url_origin":"https:\/\/assets.afcdn.com\/recipe\/20181130\/84441_origin.jpg","width":500,"height":500,"origin_width":500,"origin_height":500,"center_x":250,"center_y":250,"crop_x_top":0,"crop_y_top":0,"crop_x_bottom":500,"crop_y_bottom":500,"position":9999,"alt":"","credits":"","creation_date":"2018-11-30T11:02:18+01:00","authorId":null,"user":null,"author_name":null,"datestring":"20181130","status":1,"extension":"jpg"},"is_prog":true,"modification_date":"2019-07-12T10:48:12+02:00","album_id":null,"selection_id":null,"ingredient_infos":null,"url_pinterest":null,"is_gluten":false,"is_pork":false,"is_vegan":false,"is_vegetarian":false,"is_fish":false,"is_nuts":false,"is_egg":false,"is_lactose":false,"url":"https:\/\/www.amazon.fr\/Perrier-Citron-Vert-Min%C3%A9rale-Bouteille\/dp\/B01LYOALEV\/?tag=ckt-i-7812-21","brand_id":258,"brand_name":"Amazon","season_status":1,"etq_id":null,"nutri_score":null,"show_nutri_score":false,"topUnits":[{"id":"364","name":{"single":"cl","plural":"cl"},"shortName":{"single":"cl","plural":"cl"}},{"id":"362","name":{"single":"l","plural":"l"},"shortName":{"single":"l","plural":"l"}},{"id":"377","name":{"single":"trait","plural":"traits"},"shortName":{"single":"trait","plural":"trait"}},{"id":"365","name":{"single":"ml","plural":"ml"},"shortName":{"single":"ml","plural":"ml"}}],"buy_text":null},"quantity":2,"position":1,"complement":"","complement_plural":"","unit":{"id":364,"short_name":"cl","name":"cl","plural":"cl","fullname":"centilitre","etq_id":null}},{"id":1248065,"ingredient":{"id":7968,"story_id":null,"name":"vin blanc","plural":"vin blanc","token":"vin-blanc","picture":null,"is_prog":true,"modification_date":null,"album_id":null,"selection_id":null,"ingredient_infos":null,"url_pinterest":null,"is_gluten":false,"is_pork":false,"is_vegan":false,"is_vegetarian":false,"is_fish":false,"is_nuts":false,"is_egg":false,"is_lactose":false,"url":"https:\/\/www.amazon.fr\/GRAND-SUD-676329-Grand-France\/dp\/B01LQ9BYE4\/?tag=ckt-i-7968-21","brand_id":258,"brand_name":"Amazon","season_status":1,"etq_id":null,"nutri_score":null,"show_nutri_score":false,"topUnits":[{"id":"364","name":{"single":"cl","plural":"cl"},"shortName":{"single":"cl","plural":"cl"}},{"id":"362","name":{"single":"l","plural":"l"},"shortName":{"single":"l","plural":"l"}},{"id":"374","name":{"single":"bouteille","plural":"bouteilles"},"shortName":{"single":"bouteille","plural":"bouteille"}}],"buy_text":null},"quantity":5,"position":2,"complement":"","complement_plural":"","unit":{"id":364,"short_name":"cl","name":"cl","plural":"cl","fullname":"centilitre","etq_id":null}},{"id":1248066,"ingredient":{"id":8077,"story_id":null,"name":"aperol","plural":"aperol","token":"aperol","picture":null,"is_prog":false,"modification_date":null,"album_id":null,"selection_id":null,"ingredient_infos":null,"url_pinterest":null,"is_gluten":false,"is_pork":false,"is_vegan":false,"is_vegetarian":false,"is_fish":false,"is_nuts":false,"is_egg":false,"is_lactose":false,"url":null,"brand_id":null,"brand_name":null,"season_status":1,"etq_id":null,"nutri_score":null,"show_nutri_score":false,"topUnits":[{"id":"364","name":{"single":"cl","plural":"cl"},"shortName":{"single":"cl","plural":"cl"}},{"id":"365","name":{"single":"ml","plural":"ml"},"shortName":{"single":"ml","plural":"ml"}}]},"quantity":3,"position":3,"complement":"","complement_plural":"","unit":{"id":364,"short_name":"cl","name":"cl","plural":"cl","fullname":"centilitre","etq_id":null}}],"modification_date":null}]
+});
+</script>
+<script type="text/javascript">
+var appBlock = new MrtnBlock();
+appBlock.init({
+blockClassName: "recipe-ingredients__list",
+actionGA: "IngredientsBlock - Display - Sampling 10%",
+sampling: 10
+});
+</script>
+<script type="text/javascript">
+af_addEvent(window, 'scroll', af_lazyloading, false);
+af_addEvent(window, 'load', af_lazyloading, false);
+</script>
+                    <br>
+                                                                                    <div class="mrtn_format white-back mrtn-hide-on-print">
+                    <div class="div-gpt-ad-native_shopping_wrapper unfyas af-banner" id="div-gpt-ad-native_shopping_wrapper" style="text-align: center;"><div id="div-gpt-ad-native_shopping" data-google-query-id="CNbi26Loz_YCFcbnUQodAg4PEg" style="display: none;"><script type="text/javascript">googletag.display("div-gpt-ad-native_shopping");afAd.detectOneCall("native_shopping");</script><div id="google_ads_iframe_/229683329/1001cocktails/organic/others/native_shopping_0__container__" style="border: 0pt none; width: 229px; height: 0px;"></div></div></div><script type="text/javascript">
+    if (window.afAd) {
+        afAd.render("native_shopping", []);
+    }
+</script>						</div>
+                                                    
+
+
+
+                    
+                    
+                </div>
+
+            </div>
+
+            
+            
+            
+            <div class="padded-content col-center-special-desktop">
+
+                <h2 id="prepararion-title" class="title-2">
+                    Préparation						</h2>
+
+
+
+                                        
+                                        
+                
+                
+
+<ol class="recipe-preparation__list">
+    <li class="recipe-preparation__list__item">
+    Réalisez la recette "Aperol Spritz" directement dans le verre.		</li>
+    <li class="recipe-preparation__list__item">
+    Mélanger délicatement dans le verre contenant des glaçons.		</li>
+    <li class="recipe-preparation__list__item">
+    Servir dans un verre de type "verre à vin".		</li>
+    <li class="recipe-preparation__list__item">
+    Ajouter une rondelle d’orange.		</li>
+</ol>
+
+
+
+                                                                <div class="recipe-chief-tip mrtn-recipe-bloc ">
+                   
+                    
+                    
+                                                
+                                                                        </div>
+            </div>
+        </div>
+      <div class="aa d-none " id="modal3">
+        <div class="recipe-shadow" style="">
+          <div class="recipe-infos-container">
+            
+            </div>
+
+            <div class="recipe-infos__container">
+              <div class="recipe-infos">
+                <div class="recipe-infos__level">
+                  <span class="recipe-infos__item-title">facile</span>
+                  <div
+                    class="recipe-infos__level__container recipe-infos__level__container--level-2"
+                  >
+                    <div class="recipe-infos__level__icon-level"></div>
+                    <!--
+    -->
+                    <div class="recipe-infos__level__icon-level"></div>
+                    <!--
+    -->
+                    <div class="recipe-infos__level__icon-level"></div>
+                    <!--
+    -->
+                    <div class="recipe-infos__level__icon-level"></div>
+                  </div>
+                </div>
+
+                <div class="recipe-infos__budget">
+                  <span class="recipe-infos__item-title">Coût moyen</span>
+
+                  <div
+                    class="recipe-infos__level__container recipe-infos__level__container--level-2"
+                  >
+                    <div class="recipe-infos__level__icon-level"></div>
+                    <!--
+    -->
+                    <div class="recipe-infos__level__icon-level"></div>
+                    <!--
+    -->
+                    <div class="recipe-infos__level__icon-level"></div>
+                  </div>
+                </div>
+                <div class="recipe-infos__level">
+                    <span class=""><svg onclick="hideit(3 )" xmlns="http://www.w3.org/2000/svg" style="color: red;" width="32" height="32" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                      </svg></span>
+                </div> 
+            </div>
+             
+            </div>
+          </div>
+
+          <div class="recipe-shadow-inner">
+            <div class="no-desktop no-tablet desk-simple">
+              <div class="desk-right desk-right--bordered">
+                <div class="recipe-tabs">
+                  <h2
+                    id="recipe-ingredients-tab"
+                    class="recipe-tabs__tab recipe-tabs__tab--active"
+                    data-tab="recipe-ingredients-tab"
+                  >
+                    Ingrédients
+                  </h2>
+                 
+                </div>
+                <link
+                  href="https://static.afcdn.com/relmeuc/lazyload.png"
+                  rel="preload"
+                  as="image"
+                  importance="high"
+                />
+                <h2
+                  class="recipe-tabs--alt-title recipe-tabs--alt-title__ingredients"
+                >
+                  Ingrédients
+                </h2>
+
+                <div
+                  class="recipe-tabs__tab-content recipe-tabs__tab-content--active recipe-ingredients-tab"
+                >
+                  <ul class="recipe-ingredients__list">
+                    <li
+                      id="recipe-ingredients__0__0"
+                      class="recipe-ingredients__list__item recipe-ingredients__list__item--prog"
+                    >
+                        <img
+                          class="ingredients-list__item__icon ls-is-cached lazyloaded"
+                          src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg"
+                          data-src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg" />
+                        <div
+                          class="recipe-ingredients__list__item--prog-content"
+                        >
+                          <div>
+                            <span class="recipe-ingredient-qt" data-base-qt="4"
+                              >200</span
+                            >
+                            <p
+                              class="name_singular"
+                              data-name-singular="l de jus d'oranges"
+                              style="display: none"
+                            ></p>
+                            <p
+                              class="name_plural"
+                              data-name-plural="l de jus d'oranges"
+                              style="display: none"
+                            ></p>
+                            <p
+                              class="complement_singular"
+                              data-complement-singular=""
+                              style="display: none"
+                            ></p>
+                            <p
+                              class="complement_plural"
+                              data-complement-plural=""
+                              style="display: none"
+                            ></p>
+                            <span class="ingredient">ml de jus d'oranges </span
+                            ><span class="recipe-ingredient__complement"></span>
+                          </div></div
+                      ></a>
+                    </li>
+                    <li
+                      id="recipe-ingredients__0__1"
+                      class="recipe-ingredients__list__item recipe-ingredients__list__item--prog"
+                    ><img
+                          class="ingredients-list__item__icon ls-is-cached lazyloaded"
+                          src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg"
+                          data-src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg" />
+                        <div
+                          class="recipe-ingredients__list__item--prog-content"
+                        >
+                          <div>
+                            <span class="recipe-ingredient-qt" data-base-qt="1"
+                              >1/4</span
+                            >
+                            <p
+                              class="name_singular"
+                              data-name-singular="verre de sirop de sucre de canne"
+                              style="display: none"
+                            ></p>
+                            <p
+                              class="name_plural"
+                              data-name-plural="verres de sirop de sucre de canne"
+                              style="display: none"
+                            ></p>
+                            <p
+                              class="complement_singular"
+                              data-complement-singular=""
+                              style="display: none"
+                            ></p>
+                            <p
+                              class="complement_plural"
+                              data-complement-plural=""
+                              style="display: none"
+                            ></p>
+                            <span class="ingredient"
+                              >verre de sirop de sucre de canne </span
+                            ><span class="recipe-ingredient__complement"></span>
+                          </div></div
+                      >
+                    </li>
+                    <li
+                      id="recipe-ingredients__0__2"
+                      class="recipe-ingredients__list__item recipe-ingredients__list__item--prog"
+                    >
+                     <img
+                          class="ingredients-list__item__icon ls-is-cached lazyloaded"
+                          src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg"
+                          data-src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg" />
+                        <div
+                          class="recipe-ingredients__list__item--prog-content"
+                        >
+                          <div>
+                            <span
+                              class="recipe-ingredient-qt"
+                              data-base-qt="100"
+                              >5</span
+                            >
+                            <p
+                              class="name_singular"
+                              data-name-singular="cl de rhum blanc"
+                              style="display: none"
+                            ></p>
+                            <p
+                              class="name_plural"
+                              data-name-plural="cl de rhum blanc"
+                              style="display: none"
+                            ></p>
+                            <p
+                              class="complement_singular"
+                              data-complement-singular=""
+                              style="display: none"
+                            ></p>
+                            <p
+                              class="complement_plural"
+                              data-complement-plural=""
+                              style="display: none"
+                            ></p>
+                            <span class="ingredient">cl de rhum blanc </span
+                            ><span class="recipe-ingredient__complement"></span>
+                          </div></div
+                      >
+                    </li>
+                    <li class="recipe-ingredients__list__item">
+                      <img
+                        class="ingredients-list__item__icon ls-is-cached lazyloaded"
+                        src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg"
+                        data-src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg"
+                      />
+                      <div>
+                        <span class="recipe-ingredient-qt" data-base-qt="100"
+                          >5</span
+                        >
+                        <p
+                          class="name_singular"
+                          data-name-singular="cl de jus de pamplemousses"
+                          style="display: none"
+                        ></p>
+                        <p
+                          class="name_plural"
+                          data-name-plural="cl de jus de pamplemousses"
+                          style="display: none"
+                        ></p>
+                        <p
+                          class="complement_singular"
+                          data-complement-singular=""
+                          style="display: none"
+                        ></p>
+                        <p
+                          class="complement_plural"
+                          data-complement-plural=""
+                          style="display: none"
+                        ></p>
+                        <span class="ingredient"
+                          >cl de jus de pamplemousses </span
+                        ><span class="recipe-ingredient__complement"></span>
+                      </div>
+                    </li>
+                    <li class="recipe-ingredients__list__item">
+                      <img
+                        class="ingredients-list__item__icon ls-is-cached lazyloaded"
+                        src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg"
+                        data-src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg"
+                      />
+                      <div>
+                        <span class="recipe-ingredient-qt" data-base-qt="100"
+                          >5</span
+                        >
+                        <p
+                          class="name_singular"
+                          data-name-singular="cl de jus de fruits exotiques"
+                          style="display: none"
+                        ></p>
+                        <p
+                          class="name_plural"
+                          data-name-plural="cl de jus de fruits exotiques"
+                          style="display: none"
+                        ></p>
+                        <p
+                          class="complement_singular"
+                          data-complement-singular=""
+                          style="display: none"
+                        ></p>
+                        <p
+                          class="complement_plural"
+                          data-complement-plural=""
+                          style="display: none"
+                        ></p>
+                        <span class="ingredient"
+                          >cl de jus de fruits exotiques </span
+                        ><span class="recipe-ingredient__complement"></span>
+                      </div>
+                    </li>
+                    <li class="recipe-ingredients__list__item">
+                      <img
+                        class="ingredients-list__item__icon ls-is-cached lazyloaded"
+                        src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg"
+                        data-src="https://assets.afcdn.com/recipe/20100101/ingredient_default_1001cocktails_w60h60c1.jpg"
+                      />
+                      <div>
+                        <span class="recipe-ingredient-qt" data-base-qt="2"
+                          >1/4</span
+                        >
+                        <p
+                          class="name_singular"
+                          data-name-singular="gousses de vanille"
+                          style="display: none"
+                        ></p>
+                        <p
+                          class="name_plural"
+                          data-name-plural="gousses de vanille"
+                          style="display: none"
+                        ></p>
+                        <p
+                          class="complement_singular"
+                          data-complement-singular=""
+                          style="display: none"
+                        ></p>
+                        <p
+                          class="complement_plural"
+                          data-complement-plural=""
+                          style="display: none"
+                        ></p>
+                        <span class="ingredient">gousses de vanille </span
+                        ><span class="recipe-ingredient__complement"></span>
+                      </div>
+                    </li>
+                    <li
+                      id="recipe-ingredients__0__6"
+                      class="recipe-ingredients__list__item recipe-ingredients__list__item--prog"
+                    ><img
+                          class="ingredients-list__item__icon ls-is-cached lazyloaded"
+                          src="https://assets.afcdn.com/recipe/20180703/80159_w60h60c1cx350cy350.jpg"
+                          data-src="https://assets.afcdn.com/recipe/20180703/80159_w60h60c1cx350cy350.jpg" />
+                        <div
+                          class="recipe-ingredients__list__item--prog-content"
+                        >
+                          <div>
+                            <span class="recipe-ingredient-qt" data-base-qt="40"
+                              >2</span
+                            >
+                            <p
+                              class="name_singular"
+                              data-name-singular="cl de rhum ambré"
+                              style="display: none"
+                            ></p>
+                            <p
+                              class="name_plural"
+                              data-name-plural="cl de rhum ambré"
+                              style="display: none"
+                            ></p>
+                            <p
+                              class="complement_singular"
+                              data-complement-singular=""
+                              style="display: none"
+                            ></p>
+                            <p
+                              class="complement_plural"
+                              data-complement-plural=""
+                              style="display: none"
+                            ></p>
+                            <span class="ingredient">cl de rhum ambré </span
+                            ><span class="recipe-ingredient__complement"></span>
+                          </div></div
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+
+
+                <br />
+                <div class="mrtn_format white-back mrtn-hide-on-print">
+                  <div
+                    class="div-gpt-ad-native_shopping_wrapper unfyas af-banner"
+                    id="div-gpt-ad-native_shopping_wrapper"
+                    style="text-align: center"
+                  >
+                    <div
+                      id="div-gpt-ad-native_shopping"
+                      data-google-query-id="CMaltITUz_YCFa66UQodXiAG8g"
+                      style="display: none"
+                    >
+
+                      <div
+                        id="google_ads_iframe_/229683329/1001cocktails/organic/others/native_shopping_0__container__"
+                        style="border: 0pt none; width: 229px; height: 0px"
+                      ></div>
+                    </div>
+                  </div>
+
+                </div>
+
+
+              </div>
+            </div>
+
+            <div class="padded-content col-center-special-desktop">
+              <h2 id="prepararion-title" class="title-2">Préparation</h2>
+
+              <ol class="recipe-preparation__list">
+                <li class="recipe-preparation__list__item">
+                  Réalisez la recette "Punch exotique" dans un grand récipient.
+                </li>
+                <li class="recipe-preparation__list__item">
+                  On préfèrera utiliser un rhum blanc classique. Le mélange se
+                  prépare entre 4 heures à 2 jours avant d'être consommé. <br />
+                  Fendez les deux gousses de vanille, mettez-les avec tous les
+                  autres ingrédients dans un grand récipient et laisser reposer
+                  (macération). Le jour de la consommation, ajuster le goût avec
+                  un complément de sucre de canne si trop acide ou de jus
+                  d'orange ou de pamplemousse si trop sucré. Laissez à
+                  disposition sirop de citron et sirop de sucre de canne selon
+                  les goûts et n'ajoutez pas de glace, ça tue le punch! Servez à
+                  la louche et n'oubliez pas de trinquer. .
+                </li>
+                <li class="recipe-preparation__list__item">
+                  Servir dans un verre de type "tumbler".
+                </li>
+                <li class="recipe-preparation__list__item">
+                  Eventuellement, des tranches d'orange à placer sur le bord du
+                  verre.
+                </li>
+              </ol>
+
+              <div
+                class="recipe-chief-tip mrtn-recipe-bloc recipe-chief-tip-empty"
+              ></div>
+            </div>
+          </div>
+          <!-- recipe-shadow-inner -->
+        </div>
+      </div>
+      
+    </div>
+
+</main>
+    
+  </body>
+</html>
